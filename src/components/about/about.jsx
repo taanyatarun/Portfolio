@@ -55,7 +55,7 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p>As a B.Tech CSE student, I am passionate about the tech industry and driven to launch a successful career in this field. With a strong focus in Web and Android Development, I am constantly seeking new challenges and opportunities to expand my skill set, particularly in the areas of ML and AL. I thrive the most in collaborative environments and am committed to contributing to the community by solving real world problems and working alongside like-minded individuals.</p>
+                    <p>As a B.Tech CSE student, I am passionate about the tech industry and driven to launch a successful career in this field. With a strong focus in Web and Android Development, I am constantly seeking new challenges and opportunities to expand my skill set, particularly in the areas of ML and AI. I thrive the most in collaborative environments and am committed to contributing to the community by solving real world problems and working alongside like-minded individuals.</p>
 
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
