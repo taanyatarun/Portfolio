@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from 'typed.js';
+import Typed from 'react-typed';
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me1.png'
