@@ -15,8 +15,8 @@ circles.forEach(function (circle, index) {
 });
 
 window.addEventListener("mousemove", function(e){
-    coords.x = e.clientX;
-    coords.y = e.clientY;
+    coords.x = e.pageX;
+    coords.y = e.pageY;
 });
 
 function animateCircles() {
