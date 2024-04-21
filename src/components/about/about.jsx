@@ -55,7 +55,7 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p>Greetings! I'm [Your Name], a final year B.Tech Computer Science student with a fervent passion for technology. From crafting intricate web solutions to exploring the revolutionary potential of Blockchain, and diving deep into the realms of Computer Vision and AIML, my journey has been one of relentless curiosity and exploration. Through hands-on projects and academic endeavors, I've honed my skills and embraced the collaborative spirit of innovation. With a firm belief in the transformative power of technology, I'm committed to pushing the boundaries of what's possible and shaping a brighter future for all. Join me as we embark on this exciting journey together.</p>
+                    <p>Greetings! I'm Taanya, a final year B.Tech Computer Science student with a fervent passion for technology. From crafting intricate web solutions to exploring the revolutionary potential of Blockchain, and diving deep into the realms of Computer Vision and AIML, my journey has been one of relentless curiosity and exploration. Through hands-on projects and academic endeavors, I've honed my skills and embraced the collaborative spirit of innovation. With a firm belief in the transformative power of technology, I'm committed to pushing the boundaries of what's possible and shaping a brighter future for all. Join me as we embark on this exciting journey together.</p>
 
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
