@@ -64,6 +64,9 @@ section{
     height: 120vh;
 }
 
+.contact{
+    margin-top: 20rem;
+
 section > h2, section > h5{
     text-align: center;
     color: var(--color-light);
