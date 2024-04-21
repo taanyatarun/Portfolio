@@ -19,7 +19,7 @@ const Header = () => {
                         loop
                     />
                 </h1>
-                <h5 className="text-light">B.Tech CS 2nd Year Student</h5>
+                <h5 className="text-light">B.Tech CS 4th Year Student</h5>
                 <CTA />
                 <div className="header__elements">
                     <HeaderSocials />
