@@ -31,7 +31,7 @@ const Projects = () => {
                         <img src={IMG6} alt="" />
                     </div>
                     <h3>CoinCause</h3>
-                    <h5>Blockchain based Crowdfunding platform.</h5>
+                    <h5>Blockchain based Crowdfunding platform to ensure transparency and security.</h5>
                     <div className="portfolio__tech-stack">
                         <FaReact />
                         <FaNodeJs />
@@ -59,7 +59,7 @@ const Projects = () => {
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG7} alt="" />
+                        <img src={IMG5} alt="" />
                     </div>
                     <h3>KryptVerse</h3>
                     <h5>One stop solution for a transparent and secure cryptocurreny tranfers.</h5>
