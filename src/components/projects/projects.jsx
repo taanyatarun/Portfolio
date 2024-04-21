@@ -4,6 +4,10 @@ import IMG1 from '../../assets/Portfolio 1.png'
 import IMG2 from '../../assets/Portfolio 2.png'
 import IMG3 from '../../assets/Portfolio 3.png'
 import IMG4 from '../../assets/Portfolio 4.png'
+import IMG5 from '../../assets/Portfolio 5.jpg'
+import IMG6 from '../../assets/Portfolio 6.jpg'
+import IMG7 from '../../assets/Portfolio 7.jpg'
+import IMG8 from '../../assets/Portfolio 8.jpg'
 import {FaPython} from 'react-icons/fa'
 import {SiOpencv} from 'react-icons/si'
 import {FaHtml5} from 'react-icons/fa'
@@ -11,6 +15,7 @@ import {SiCss3} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiOpenai} from 'react-icons/si'
+import { SiSolidity } from "react-icons/si";
 
 
 const Projects = () => {
@@ -20,6 +25,53 @@ const Projects = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
+
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={IMG6} alt="" />
+                    </div>
+                    <h3>CoinCause</h3>
+                    <h5>Blockchain based Crowdfunding platform.</h5>
+                    <div className="portfolio__tech-stack">
+                        <FaReact />
+                        <FaNodeJs />
+                        <SiSolidity />
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <a href="https://github.com/taanyatarun/CoinCause" className="btn">Github</a>
+                    </div>
+                </article>
+
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={IMG7} alt="" />
+                    </div>
+                    <h3>SeeClick</h3>
+                    <h5>A Computer Vision based eye tracker, that helps you navigate your computer screen by the movement of your eye.</h5>
+                    <div className="portfolio__tech-stack">
+                        <FaPython />
+                        <SiOpencv />
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <a href="https://github.com/taanyatarun/SeeClick" className="btn">Github</a>
+                    </div>
+                </article>
+
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={IMG7} alt="" />
+                    </div>
+                    <h3>KryptVerse</h3>
+                    <h5>One stop solution for a transparent and secure cryptocurreny tranfers.</h5>
+                    <div className="portfolio__tech-stack">
+                        <FaReact />
+                        <FaNodeJs />
+                        <SiSolidity />
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <a href="https://github.com/taanyatarun/KryptVerse" className="btn">Github</a>
+                    </div>
+                </article>
                 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
@@ -35,6 +87,21 @@ const Projects = () => {
                     <div className="portfolio__item-cta">
                         <a href="https://github.com/taanyatarun/CodeWhiz" className="btn">Github</a>
                         <a href="https://code-whiz.vercel.app/" className="btn btn-primary" target='_blank'>Demo</a>
+                    </div>
+                </article>
+
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={IMG8} alt="" />
+                    </div>
+                    <h3>Jarvis</h3>
+                    <h5>An OpenAI powered desktop assistant.</h5>
+                    <div className="portfolio__tech-stack">
+                        <FaPython />
+                        <SiOpenai />
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <a href="https://github.com/taanyatarun/Desktop-Assistant" className="btn">Github</a>
                     </div>
                 </article>
 

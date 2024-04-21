@@ -9,7 +9,7 @@ import {SiCss3} from 'react-icons/si'
 import {SiOpencv} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
-import {SiOpenai} from 'react-icons/si'
+import {SiOpenai, SiSolidity} from 'react-icons/si'
 
 const About = () => {
     return (
@@ -30,7 +30,7 @@ const About = () => {
                             <FaPython />
                         </article>
                         <article className="about__card">
-                            <SiCplusplus />
+                            <SiSolidity />
                         </article>
                         <article className="about__card">
                             <SiMysql />
