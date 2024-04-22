@@ -60,12 +60,9 @@ h1{
 }
 
 section{
-    margin-top: 20rem;
+    margin-top: 21rem;
     height: 120vh;
 }
-
-.contact{
-    margin-top: 20rem;
 
 section > h2, section > h5{
     text-align: center;
