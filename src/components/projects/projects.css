@@ -50,6 +50,9 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    section#project{
+        height: 170vh;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -59,5 +62,8 @@
     }
     .portfolio__tech-stack{
         display: none;
+    }
+    section#project{
+        height: 270vh;
     }
 }

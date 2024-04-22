@@ -147,7 +147,8 @@ img{
     }
 
     section{
-        margin-top: 20rem;
+        margin-top: 10rem;
+        height: 100vh;
     }
 }
 
@@ -158,5 +159,6 @@ img{
 
     section{
         margin-bottom: 2rem;
+        margin-top: 15rem;
     }
 }
