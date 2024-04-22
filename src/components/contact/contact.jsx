@@ -22,9 +22,9 @@ const Contact = () => {
     return (
         <div className="contact">
             <section id="contact">
+                <h5>Get In Touch</h5>
+                <h2>Contact Me</h2>
                <div className="container contact__container">
-                    <h5>Get In Touch</h5>
-                    <h2>Contact Me</h2>
                     <div className="contact__options">
                         <article className="contact__option">
                             <HiOutlineMail className="contact__option-icons"/>
